@@ -9,7 +9,7 @@
 
         // Pola statyczne sa wspoldzielone przez wszystkie obiekty stworzone w tej klasie
         public static int numCuboid = 0;
-
+        
         public Cuboid()
         {
             a = 0;
@@ -17,7 +17,7 @@
             h = 0;
             numCuboid++;
         }
-
+        
         public Cuboid(int a, int b, int h)
         {
             this.a = a;
