@@ -21,6 +21,16 @@ namespace Basic_Objectivity
             Console.WriteLine("Aritmetics result: " + result);
             Console.WriteLine(Cuboid.ShowNumCuboid());
             Console.WriteLine(Cuboid.numCuboid);
+
+            // Operacje na enumach
+            PseudoCalendar pseudoCalendar = new PseudoCalendar();
+            pseudoCalendar.month = Month.August;
+            Console.WriteLine(pseudoCalendar.month);
+
+            Month month = Month.April;
+            Console.WriteLine(month);
+
+
             Console.ReadKey();
         }
     }
